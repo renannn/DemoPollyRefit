@@ -30,8 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
         }
 
         #endregion
